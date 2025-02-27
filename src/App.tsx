@@ -38,7 +38,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/ticket-generator"
           element={<MainPage />}
         />
         <Route
