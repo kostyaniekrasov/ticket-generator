@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+}
+
+.pencil {
+  background-color: hsl(245, 19%, 35%);
+}
