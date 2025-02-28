@@ -81,7 +81,7 @@ const MainPage = () => {
   return (
     <div className="px-4 pt-6 max-w-3xl flex flex-col items-center">
       <img
-        src="public/images/logo-full.svg"
+        src="images/logo-full.svg"
         className={'mb-6 h-7 xl:mb-10'}
         alt="Coding Conf Logo"
       />
@@ -130,7 +130,7 @@ const MainPage = () => {
                 exit={{ display: 'none' }}
               >
                 <img
-                  src="public/images/icon-upload.svg"
+                  src="images/icon-upload.svg"
                   className={
                     'flex cursor-pointer rounded-xl border border-neutral-700 bg-neutral-700/50 p-2'
                   }

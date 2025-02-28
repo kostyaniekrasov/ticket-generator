@@ -27,7 +27,7 @@ const TicketPage = () => {
   return (
     <div className="px-4 pt-6 max-w-3xl flex flex-col items-center">
       <img
-        src="public/images/logo-full.svg"
+        src="images/logo-full.svg"
         className={'mb-6 h-7 xl:mb-10'}
         alt="Coding Conf Logo"
       />
@@ -60,13 +60,13 @@ const TicketPage = () => {
 
       <div
         className="ticket p-4 xl:p-8 relative bg-contain bg-no-repeat
-          bg-[url('public/images/pattern-ticket.svg')] flex justify-between w-xs xl:w-xl"
+          bg-[url(images/pattern-ticket.svg')] flex justify-between w-xs xl:w-xl"
       >
         <div className="flex flex-col gap-6 xl:gap-16">
           <div className="flex gap-2 items-start">
             <img
               className="h-7 xl:h-10"
-              src="public/images/logo-mark.svg"
+              src="images/logo-mark.svg"
               alt="logo"
             />
             <div>
@@ -88,7 +88,7 @@ const TicketPage = () => {
               </p>
               <div className="flex gap-1 items-center">
                 <img
-                  src="public/images/icon-github.svg"
+                  src="images/icon-github.svg"
                   alt="icon github"
                 />
                 <p className="text-neutral-300">@{username}</p>
