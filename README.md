@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kostyaniekrasov.github.io/ticket-generator/ticket)
+- Live Site URL: [LINK](https://kostyaniekrasov.github.io/ticket-generator/ticket)
 
 ### Built with
 
