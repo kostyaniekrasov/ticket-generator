@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
@@ -70,13 +70,20 @@ const MainPage = () => {
     if (avatarError) {
       return;
     }
+
     const randomFiveNumber = Math.floor(10000 + Math.random() * 90000);
-    navigate('/ticket', {
+    navigate('ticket', {
       state: { user: { ...data, ticketId: randomFiveNumber } },
     });
   };
 
   const file = watch('avatar');
+
+  useEffect(() => {
+    if (!selectedFile && isSubmitted) {
+      setAvatarError('Avatar is required');
+    }
+  }, [selectedFile, isSubmitted]);
 
   return (
     <div className="px-4 pt-6 max-w-3xl flex flex-col items-center">
@@ -195,7 +202,7 @@ const MainPage = () => {
             initial={{ opacity: 0, y: 10 }}
             className="text-neutral-300 absolute -bottom-8 left-0 right-0 flex gap-2 items-center"
             animate={
-              !avatarError && !errors.avatar
+              !avatarError && !selectedFile
                 ? {
                     opacity: 1,
                     y: 0,
@@ -217,7 +224,7 @@ const MainPage = () => {
             initial={{ opacity: 0, y: 10 }}
             className="text-orange-500 absolute -bottom-8 left-0 right-0 flex gap-2 items-center"
             animate={
-              (errors.avatar && isSubmitted) || avatarError
+              (!selectedFile && isSubmitted) || avatarError
                 ? {
                     opacity: 1,
                     y: 0,
@@ -230,9 +237,7 @@ const MainPage = () => {
             transition={{ duration: 0.3, ease: 'easeInOut' }}
           >
             <IconInfo />
-            <span className="text-sm">
-              {avatarError ?? 'Avatar is required'}
-            </span>
+            <span className="text-sm">{avatarError}</span>
           </motion.div>
         </fieldset>
 

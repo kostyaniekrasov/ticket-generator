@@ -60,7 +60,7 @@ const TicketPage = () => {
 
       <div
         className="ticket p-4 xl:p-8 relative bg-contain bg-no-repeat
-          bg-[url(/images/pattern-ticket.svg')] flex justify-between w-xs xl:w-xl"
+          bg-[url('/images/pattern-ticket.svg')] flex justify-between w-xs xl:w-xl"
       >
         <div className="flex flex-col gap-6 xl:gap-16">
           <div className="flex gap-2 items-start">

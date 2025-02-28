@@ -42,7 +42,7 @@ function App() {
           element={<MainPage />}
         />
         <Route
-          path="/ticket"
+          path="/ticket-generator/ticket"
           element={<TicketPage />}
         />
       </Routes>
