@@ -50,9 +50,7 @@ const TicketPage = () => {
         ! Your ticket is ready.
       </h2>
 
-      <p
-        className={'mb-4 xl:mb-16 xl:w-xl text-center text-xl text-neutral-300'}
-      >
+      <p className={'mb-16 xl:w-xl text-center text-xl text-neutral-300'}>
         We've emailed your ticket to &nbsp;
         <span className="text-orange-500">{email}</span>
         &nbsp; and will send updates in the run up to the event.
