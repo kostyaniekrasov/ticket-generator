@@ -38,10 +38,10 @@ Users should be able to:
 ### Screenshot
 
 
-![Screenshot_28-2-2025_10383_kostyaniekrasov github io](https://github.com/user-attachments/assets/aa8b303b-e507-4c72-b814-7bc1e438aa7d)
-![Screenshot_28-2-2025_103630_kostyaniekrasov github io](https://github.com/user-attachments/assets/e2b9b818-ad60-45d4-b785-fc3a4a0627fe)
-![Screenshot_28-2-2025_103055_kostyaniekrasov github io](https://github.com/user-attachments/assets/af7d5d14-11a3-4a1a-ba41-7fc18a9320f8)
-![Screenshot_28-2-2025_103037_kostyaniekrasov github io](https://github.com/user-attachments/assets/be836ccd-46ca-4f41-8c4d-57e4d658458a)
+- ![Screenshot_28-2-2025_10383_kostyaniekrasov github io](https://github.com/user-attachments/assets/aa8b303b-e507-4c72-b814-7bc1e438aa7d)
+- ![Screenshot_28-2-2025_103630_kostyaniekrasov github io](https://github.com/user-attachments/assets/e2b9b818-ad60-45d4-b785-fc3a4a0627fe)
+- ![Screenshot_28-2-2025_103055_kostyaniekrasov github io](https://github.com/user-attachments/assets/af7d5d14-11a3-4a1a-ba41-7fc18a9320f8)
+- ![Screenshot_28-2-2025_103037_kostyaniekrasov github io](https://github.com/user-attachments/assets/be836ccd-46ca-4f41-8c4d-57e4d658458a)
 
 
 ### Links
