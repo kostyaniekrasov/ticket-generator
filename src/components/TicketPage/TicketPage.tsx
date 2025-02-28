@@ -8,7 +8,7 @@ const TicketPage = () => {
 
   useEffect(() => {
     if (!user) {
-      navigate('/', { replace: true });
+      navigate('/ticket-generator', { replace: true });
     }
   }, [navigate, user]);
 
