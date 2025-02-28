@@ -6,9 +6,9 @@ function App() {
   return (
     <div
       className="h-screen flex justify-center font-[Inconsolata] text-neutral-300 relative
-        bg-[url('images/background-mobile.png')]
-        sm:bg-[url('images/background-tablet.png')]
-        xl:bg-[url('images/background-desktop.png')] bg-cover"
+        bg-[url('/images/background-mobile.png')]
+        sm:bg-[url('/images/background-tablet.png')]
+        xl:bg-[url('/images/background-desktop.png')] bg-cover"
     >
       <div className="patterns screen pointer-events-none">
         <img
