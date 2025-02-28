@@ -37,15 +37,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Screenshot_28-2-2025_10383_kostyaniekrasov github io](https://github.com/user-attachments/assets/aa8b303b-e507-4c72-b814-7bc1e438aa7d)
+![Screenshot_28-2-2025_103630_kostyaniekrasov github io](https://github.com/user-attachments/assets/e2b9b818-ad60-45d4-b785-fc3a4a0627fe)
+![Screenshot_28-2-2025_103055_kostyaniekrasov github io](https://github.com/user-attachments/assets/af7d5d14-11a3-4a1a-ba41-7fc18a9320f8)
+![Screenshot_28-2-2025_103037_kostyaniekrasov github io](https://github.com/user-attachments/assets/be836ccd-46ca-4f41-8c4d-57e4d658458a)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
